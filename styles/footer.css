@@ -1,0 +1,9 @@
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  background-color: grey;
+  height: 100px;
+}
+/*# sourceMappingURL=footer.css.map */
