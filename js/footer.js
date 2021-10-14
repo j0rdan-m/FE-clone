@@ -7,16 +7,23 @@ let monFooter = {
         credits: Array
     },
     template: `<footer>
-    
-                    <div class="links">
-                        <div class="footer-link" v-for="link in links"><a :href="link.link"> {{ link.linkname }} </a> </div>
-                    </div>
-                    <div class="credit">
-                    <div class="footer-link" v-for="credit in credits">
-                    {{ credit }} <span class="material-icons-outlined" style="font-size:16px;">copyright</span>
-                    </div>
-                    </div>
-                </footer>`
+    <div class="footy-sec mn no-margin">
+        <div class="container">
+            <ul>
+                <li><a href="#" title="">Help Center</a></li>
+                <li><a href="#" title="">Privacy Policy</a></li>
+                <li><a href="#" title="">Community Guidelines</a></li>
+                <li><a href="#" title="">Cookies Policy</a></li>
+                <li><a href="#" title="">Career</a></li>
+                <li><a href="#" title="">Forum</a></li>
+                <li><a href="#" title="">Language</a></li>
+                <li><a href="#" title="">Copyright Policy</a></li>
+            </ul>
+            <p><img src="images/copy-icon2.png" alt="">Copyright 2021</p>
+            <img class="fl-rgt" src="images/icon-left-font-monochrome-black-small.png" alt="">
+        </div>
+    </div>
+</footer><!--footer end-->`
 };
 
 let footer = new VueFooter({
