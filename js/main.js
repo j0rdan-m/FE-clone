@@ -35,7 +35,7 @@ let myMain = {
                                         <span>155</span>
                                     </li>
                                     <li>
-                                        <a href="#" title="">View Profile</a>
+                                        <a href="user-profile.html" title="">View Profile</a>
                                     </li>
                                 </ul>
                             </div><!--user-data end-->
